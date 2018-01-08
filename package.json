@@ -1,0 +1,29 @@
+{
+  "name": "mysql-helper-simple",
+  "version": "1.0.2",
+  "description": "mysql helper simple plug-in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lienren/mysql-helper.git"
+  },
+  "keywords": [
+    "mysql",
+    "helper",
+    "mysqlhelper",
+    "koa",
+    "express"
+  ],
+  "author": "lienren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lienren/mysql-helper/issues"
+  },
+  "homepage": "https://github.com/lienren/mysql-helper#readme",
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
+}

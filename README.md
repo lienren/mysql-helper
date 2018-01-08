@@ -70,6 +70,26 @@ sqlhelper.update({
 });
 ```
 
+## Batch Execute
+```bash
+var sql0 = "select * from users";
+var sql1 = "...";
+sqlhelper.batch([
+  sqlhelper.query({ sql: sql0 }),
+  sqlhelper.query({ sql: sql1 }),
+], {
+  completeHanding: results => {
+    console.log('results:', results);
+    //return results[0] results[1]
+  },
+  exceptionHandling: err => {
+    console.log('err:', err);
+    //return error
+  }
+});
+```
+
+
 ## Support [Squel](https://www.npmjs.com/package/squel)
 
 Before running the examples ensure you have squel installed and enabled at the top of your script:

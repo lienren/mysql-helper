@@ -2,7 +2,7 @@
  * @Author: Lienren 
  * @Date: 2018-01-08 17:36:54 
  * @Last Modified by: Lienren
- * @Last Modified time: 2018-01-08 19:32:48
+ * @Last Modified time: 2018-01-08 20:53:08
  */
 'use strict';
 const mysql = require('mysql');
@@ -113,7 +113,7 @@ class MysqlHelper {
     });
   }
   batch(executes, { completeHanding = result => {}, exceptionHandling = err => {} }) {
-    Promise.all(executes)
+    return Promise.all(executes)
       .then(completeHanding)
       .catch(exceptionHandling);
   }

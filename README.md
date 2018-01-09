@@ -1,5 +1,8 @@
 # mysql-helper-simple
 
+[![npm](https://img.shields.io/npm/v/mysql-helper-simple.svg)](https://www.npmjs.com/package/mysql-helper-simple)
+[![npm](https://img.shields.io/badge/license-MIT-blue.svg)](https://www.npmjs.com/package/mysql-helper-simple)
+
 this is a mysql helper simple plug-in
 
 # Installation
@@ -70,6 +73,7 @@ sqlhelper.update({
 ```
 
 ## Batch Execute
+
 ```bash
 var sql0 = "select * from users";
 var sql1 = "...";
@@ -87,7 +91,6 @@ sqlhelper.batch([
   }
 });
 ```
-
 
 ## Support [Squel](https://www.npmjs.com/package/squel)
 

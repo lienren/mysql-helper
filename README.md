@@ -13,8 +13,7 @@ $ npm install mysql-helper-simple
 Before running the examples ensure you have [mysql-helper-simple](https://www.npmjs.com/package/mysql-helper-simple) installed and enabled at the top of your script:
 
 ```bash
-const sqlhelper = require("mysql-helper-simple");
-sqlhelper.init({
+const sqlhelper = require("mysql-helper-simple")({
   "host": "localhost",
   "user": "root",
   "password": "123456",

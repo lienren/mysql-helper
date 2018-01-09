@@ -1,6 +1,6 @@
 {
   "name": "mysql-helper-simple",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "mysql helper simple plug-in",
   "main": "index.js",
   "scripts": {

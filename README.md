@@ -80,15 +80,9 @@ var sql1 = "...";
 sqlhelper.batch([
   sqlhelper.query({ sql: sql0 }),
   sqlhelper.query({ sql: sql1 }),
-], {
-  completeHanding: results => {
-    console.log('results:', results);
-    //return results[0] results[1]
-  },
-  exceptionHandling: err => {
-    console.log('err:', err);
-    //return error
-  }
+]).then(results => {
+  console.log(results[0]);
+  console.log(results[1]);
 });
 ```
 

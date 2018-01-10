@@ -5,6 +5,8 @@
 
 this is a mysql helper simple plug-in
 
+Github: [https://github.com/lienren/mysql-helper](https://github.com/lienren/mysql-helper)
+
 # Installation
 
 ```bash
